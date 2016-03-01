@@ -36,3 +36,6 @@ cmd = "ssh " + remoteUser + "@" + remoteHost +  " 'mysqldump --user=" + remoteDb
 print cmd
 
 # eventually, when this works properly, we will execute the above command.
+#todo:
+#next we need to perform an rsync to copy the code from the remote over here to WF
+
